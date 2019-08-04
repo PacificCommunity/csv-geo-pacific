@@ -1,42 +1,53 @@
-## General description
-Combines data from multiple sources into a cohesive datasets
+# General Information
 
-## Goals
-1. Enable users to visually enable data across multiple counties
-2. Enable users to visually enable data in a single country
+## Principles
+- Allow showing data across multiple countries
+- Allow showing data at different levels of detail
+- Allow data to be shown for a single country
+  - Data should be showable using the local boundary type (eg 'Village')
 
-## What will work
-Imagine we have a csv containing average household income at the Admin Level 2 for all countries
 
-| AL2_NAME      | Country        | Avg Income |
+## Quick summary
+Data in a csv should look like one of these:
+
+*Mapping data across multiple countries at the first Sub-Country level*
+
+| SC1_CODE      | Country        | Avg Income |
 | ------------- | -------------- | -----------|
-| Sua           | American Samoa | $100       | 
+| ASM-1         | American Samoa | $100       | 
 | ...           | ...            | ...        |
-| Hihifo        | Tonga          | $300       |
+| FJI-1         | Fiji           | $300       |
 
 
-Or perhaps we just have average household income at the Admin Level 2 (COUNTY) in American Samoa
+*Mapping data in American Samoa at the first Sub-Country (SC1) level*
 
-| ASM_COUNTY_NAME  | Country        | Avg Income |
+| ASM_SC1_CODE     | Country        | Avg Income |
 | ---------------- | -------------- | -----------|
-| Sua              | American Samoa | $100       | 
+| ASM-1            | American Samoa | $100       | 
 | ...              | ...            | ...        |
-| Ituau            | American Samoa | $300       |
+| ASM-2            | American Samoa | $300       |
+
+
+*Mapping data in American Samoa at the District level*
+
+| ASM_DISTRICT_CODE | Country        | Avg Income |
+| ----------------- | -------------- | -----------|
+| ASM-1             | American Samoa | $100       | 
+| ...               | ...            | ...        |
+| ASM-2             | American Samoa | $300       |
+
+
+
+# Available Layers
+- Within PacificMap there are a number of layers which can be used for showing data against different regions
+  - Country (EEZ)
+  - Sub-Country 1 [more details](/subCountry1)
+  - Sub-Country 2 [more details](/subCountry2)
+  - Sub-Country 3 [more details](/subCountry3)
+- The Sub-Country layers are an amalgamation of boundaries that approximately equivalent across countries
+
 
 Valid names can be
-- AL2_NAME (for non-country-specfic).
-- AL2_CODE (for non-country-specfic).
-- {ISO3}_AL2_NAME eg `ASM_AL2_NAME` for Administrative Level 2 Names in American Samoa.
-- {ISO3}_AL2_CODE eg `ASM_AL2_CODE` for Administrative Level 2 Codes in American Samoa.
-- {ISO3}_{LOCAL ADMIN NAME}_NAME eg `ASM_COUNTY_NAME` for counties (AL2) in American Samoa.
-- {ISO3}_{LOCAL ADMIN NAME}_CODE eg `ASM_COUNTY_CODE` for counties (AL2) in American Samoa.
-
-
-Or perhaps we want to use Admin Level 3 codes in Tonga.
-When using codes we need to make sure they are prefixed by the Country ISO3 Code
-
-| TON_AL3_CODE | Village Name | Country  | Avg Income |
-| ------------ | ------------ | -------- | -----------|
-| TON1709      | 'Ahau        | Tonga    | $100       | 
-| ...          | ...          | ...      | ...        |
-| TON1110      | 'Ataa        | Tonga    | $300       |
+- `SC1_CODE` (for non-country-specfic)
+- {ISO3}_SC1_CODE eg `ASM_SC1_CODE` for Sub-Country 1 Codes in American Samoa.
+- {ISO3}_{LOCAL ADMIN NAME}_CODE eg `ASM_DISTRICT_CODE` for districts (AL2) in American Samoa.
