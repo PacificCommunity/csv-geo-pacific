@@ -7,7 +7,8 @@ papua_new_guinea = {
     "subCountry1": {
         "localName": "Province",
         "bestDatasource": "gadm",
-        "gadmLevel": 1
+        "gadmLevel": 1,
+        "requiresBuffer": False
     },
     "subCountry2": {
         "localName": "District",
@@ -15,7 +16,7 @@ papua_new_guinea = {
         "gadmLevel": 2
     },
     "subCountry3": {
-        "localName": "Local Level Government Areas",
+        "localName": "Local Level Government Area",
         "bestDatasource": "popgis",
         "popgisShpSource": "srcDatasets/popgis/PNG/LLGA.shp"
     },

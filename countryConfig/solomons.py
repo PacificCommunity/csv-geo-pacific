@@ -7,7 +7,8 @@ solomons = {
         "subCountry1": {
             "localName": "Province",
             "bestDatasource": "popgis",
-            "popgisShpSource": "srcDatasets/popgis/SLB/province/pid_3857.shp"
+            "popgisShpSource": "srcDatasets/popgis/SLB/province/pid_3857.shp",
+            "requiresBuffer": False
         },
         "subCountry2": {
             "localName": "Constituency",

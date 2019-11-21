@@ -7,7 +7,7 @@ tonga = {
         "subCountry1": {
             "localName": "Division",
             "bestDatasource": "popgis",
-            "popgisShpSource": "srcDatasets/popgis/TON/division/TON_dv_3857.shp"
+            "popgisShpSource": "srcDatasets/popgis/TON/division/TongaDivisions.shp"
         },
         "subCountry2": {
             "localName": "District",

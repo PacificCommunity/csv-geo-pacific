@@ -1,13 +1,13 @@
-# Level Of Detail - Sub Country 1 Values
+# Level Of Detail - Sub-Country 1 Values
 |        SC1_NAME         |SC1_CODE|ISO3 Code|    Local Boundary Name    |Source Geometry Dataset|
 |-------------------------|--------|---------|---------------------------|-----------------------|
 |Eastern                  |ASM-1   |ASM      |DISTRICT                   |GADM                   |
 |Manu'a                   |ASM-2   |ASM      |DISTRICT                   |GADM                   |
 |Unorganized              |ASM-3   |ASM      |DISTRICT                   |GADM                   |
 |Western                  |ASM-4   |ASM      |DISTRICT                   |GADM                   |
-|Northern Group           |COK-3   |COK      |GROUP OF ISLANDS           |popgis                 |
-|Rarotonga                |COK-1   |COK      |GROUP OF ISLANDS           |popgis                 |
-|Southern Group           |COK-2   |COK      |GROUP OF ISLANDS           |popgis                 |
+|Northern Group           |COK-1   |COK      |GROUP OF ISLANDS           |popgis                 |
+|Rarotonga                |COK-2   |COK      |GROUP OF ISLANDS           |popgis                 |
+|Southern Group           |COK-3   |COK      |GROUP OF ISLANDS           |popgis                 |
 |Central                  |FJI-1   |FJI      |DIVISION                   |GADM                   |
 |Eastern                  |FJI-2   |FJI      |DIVISION                   |GADM                   |
 |Northern                 |FJI-3   |FJI      |DIVISION                   |GADM                   |
@@ -18,19 +18,23 @@
 |Îles Marquises           |PYF-3   |PYF      |ADMINISTRATIVE SUBDIVISIONS|GADM                   |
 |Îles Sous-le-Vent        |PYF-4   |PYF      |ADMINISTRATIVE SUBDIVISIONS|GADM                   |
 |Îles Tuamotu-Gambier     |PYF-5   |PYF      |ADMINISTRATIVE SUBDIVISIONS|GADM                   |
-|Pohnpei                  |FSM-3   |FSM      |STATE                      |popgis                 |
-|Chuuk                    |FSM-2   |FSM      |STATE                      |popgis                 |
-|Kosrae                   |FSM-4   |FSM      |STATE                      |popgis                 |
-|Yap                      |FSM-1   |FSM      |STATE                      |popgis                 |
-|Rota                     |NRU-3   |NRU      |ISLAND                     |popgis                 |
-|Tinian                   |NRU-2   |NRU      |ISLAND                     |popgis                 |
-|Saipan                   |NRU-1   |NRU      |ISLAND                     |popgis                 |
+|Chuuk                    |FSM-1   |FSM      |STATE                      |GADM                   |
+|Kosrae                   |FSM-2   |FSM      |STATE                      |GADM                   |
+|Pohnpei                  |FSM-3   |FSM      |STATE                      |GADM                   |
+|Yap                      |FSM-4   |FSM      |STATE                      |GADM                   |
 |Îles Loyauté             |NCL-1   |NCL      |PROVINCE                   |GADM                   |
 |Nord                     |NCL-2   |NCL      |PROVINCE                   |GADM                   |
 |Sud                      |NCL-3   |NCL      |PROVINCE                   |GADM                   |
 |Rota                     |MNP-3   |MNP      |ISLAND                     |popgis                 |
 |Tinian                   |MNP-2   |MNP      |ISLAND                     |popgis                 |
 |Saipan                   |MNP-1   |MNP      |ISLAND                     |popgis                 |
+|Koror                    |PLW-6   |PLW      |GROUP OF STATES            |popgis                 |
+|Airai                    |PLW-2   |PLW      |GROUP OF STATES            |popgis                 |
+|Sonsorol                 |PLW-16  |PLW      |GROUP OF STATES            |popgis                 |
+|Hatohobei                |PLW-4   |PLW      |GROUP OF STATES            |popgis                 |
+|East Babeldaob           |PLW-5   |PLW      |GROUP OF STATES            |popgis                 |
+|West Babeldaob           |PLW-4   |PLW      |GROUP OF STATES            |popgis                 |
+|Outlying States          |PLW-3   |PLW      |GROUP OF STATES            |popgis                 |
 |Bougainville             |PNG-1   |PNG      |PROVINCE                   |GADM                   |
 |Central                  |PNG-2   |PNG      |PROVINCE                   |GADM                   |
 |Chimbu                   |PNG-3   |PNG      |PROVINCE                   |GADM                   |
@@ -53,6 +57,10 @@
 |West New Britain         |PNG-20  |PNG      |PROVINCE                   |GADM                   |
 |Western                  |PNG-22  |PNG      |PROVINCE                   |GADM                   |
 |Western Highlands        |PNG-21  |PNG      |PROVINCE                   |GADM                   |
+|Savaii                   |WSM-4   |WSM      |REGION                     |popgis                 |
+|Rest of Upolu            |WSM-3   |WSM      |REGION                     |popgis                 |
+|Apia Urban Area          |WSM-1   |WSM      |REGION                     |popgis                 |
+|North West Upol          |WSM-2   |WSM      |REGION                     |popgis                 |
 |Choiseul                 |SLB-1   |SLB      |PROVINCE                   |popgis                 |
 |Honiara                  |SLB-10  |SLB      |PROVINCE                   |popgis                 |
 |Western                  |SLB-2   |SLB      |PROVINCE                   |popgis                 |
@@ -63,11 +71,11 @@
 |Malaita                  |SLB-7   |SLB      |PROVINCE                   |popgis                 |
 |Makira-Ulawa             |SLB-8   |SLB      |PROVINCE                   |popgis                 |
 |Temotu                   |SLB-9   |SLB      |PROVINCE                   |popgis                 |
-|Vava'u                   |TON-2   |TON      |DIVISION                   |popgis                 |
-|Ha'apai                  |TON-3   |TON      |DIVISION                   |popgis                 |
-|'Eua                     |TON-4   |TON      |DIVISION                   |popgis                 |
-|Tongatapu                |TON-1   |TON      |DIVISION                   |popgis                 |
-|Niuas                    |TON-5   |TON      |DIVISION                   |popgis                 |
+|Ha'apai                  |TON-1   |TON      |DIVISION                   |popgis                 |
+|'Eua                     |TON-2   |TON      |DIVISION                   |popgis                 |
+|Niuas                    |TON-3   |TON      |DIVISION                   |popgis                 |
+|Tongatapu                |TON-4   |TON      |DIVISION                   |popgis                 |
+|Vava'u                   |TON-5   |TON      |DIVISION                   |popgis                 |
 |Nanumanga                |TUV-2   |TUV      |ISLAND                     |popgis                 |
 |Nanumea                  |TUV-1   |TUV      |ISLAND                     |popgis                 |
 |Funafuti                 |TUV-7   |TUV      |ISLAND                     |popgis                 |

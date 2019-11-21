@@ -1,3 +1,7 @@
 hdx-python-api
 fiona
 requests
+shapely
+numpy
+rtree
+scipy

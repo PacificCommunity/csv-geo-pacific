@@ -1,5 +1,5 @@
 import os, shutil, fiona
-from pytablewriter import MarkdownTableWriter
+from pytablewriter import MarkdownTableWriter, HtmlTableWriter
 import pandas as pd
 import json
 
@@ -26,6 +26,8 @@ for desired_output in config.desired_outputs:
     os.mkdir(out_dir)
 
     writer = MarkdownTableWriter()
+    htmlWrite = HtmlTableWriter()
+
     writer.table_name = desired_output['friendlyName']
     writer.headers = ["ISO3 Code", "Country", "Boundary type"]
     writer.value_matrix = []
@@ -38,6 +40,9 @@ for desired_output in config.desired_outputs:
             writer.value_matrix.append([country['countryIsoAlpha3Code'], country['countryName'], 'N/A'])
 
     writer.dump(os.path.join(out_dir, "README.md"))
+
+    htmlWrite.from_tabledata(writer.tabledata)
+    htmlWrite.dump(os.path.join(out_dir, "README.html"))
 
     writer2 = MarkdownTableWriter()
     writer2.table_name = f"{desired_output['friendlyName']} Values"

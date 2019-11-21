@@ -7,7 +7,8 @@ fiji = {
     "subCountry1": {
         "localName": "Division",
         "bestDatasource": "gadm",
-        "gadmLevel": 1
+        "gadmLevel": 1,
+        "requiresBuffer": False
     },
     "subCountry2": {
         "localName": "Province",

@@ -4,11 +4,11 @@ palau = {
         "countryIsoAlpha3Code": "PLW",
         "countryNumericIsoCode": "585",
         "officialName": "Palau",
-        # "subCountry1": {
-        #     "localName": "Group of States",
-        #     "bestDatasource": "gadm",
-        #     # "popgisShpSource": "srcDatasets/popgis/MNP/Island/iid_3857_XY.shp"
-        # },
+        "subCountry1": {
+            "localName": "Group of States",
+            "bestDatasource": "popgis",
+            "popgisShpSource": "srcDatasets/popgis/PLW/GroupOfStates/GroupOfStates.shp"
+        },
         "subCountry2": {
             "localName": "State",
             "bestDatasource": "popgis",

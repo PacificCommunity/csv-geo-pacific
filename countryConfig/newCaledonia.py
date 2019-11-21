@@ -7,7 +7,8 @@ new_caledonia = {
         "subCountry1": {
             "localName": "Province",
             "bestDatasource": "gadm",
-            "gadmLevel": 1
+            "gadmLevel": 1,
+            "requiresBuffer": False
         },
         "subCountry3": {
             "localName": "Commune",

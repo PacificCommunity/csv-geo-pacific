@@ -1,4 +1,4 @@
-
+import re
 import os
 from collections import OrderedDict
 from fiona.transform import transform_geom
@@ -21,6 +21,7 @@ def getAdminTypeCode(adminType):
     if adminType == 'island': return 'i'
     if adminType == 'local level government areas': return 'llga'
     if adminType == 'municipality': return 'm'
+    if adminType == 'region': return 'r'
     if adminType == 'province': return 'p'
     if adminType == 'state': return 's'
     if adminType == 'tikina': return 't'
@@ -31,19 +32,23 @@ def getAdminTypeCode(adminType):
 
 
 def getIdField(admin_level_info, available_fields):
-    admin_type_code = getAdminTypeCode(admin_level_info['localName'].lower())
-    for field in available_fields:
-       if field == f"{admin_type_code}id": return f"{admin_type_code}id"
-       if field == f"{admin_type_code}_id": return f"{admin_type_code}_id"
-       if field == f"{admin_type_code.upper()}ID": return f"{admin_type_code.upper()}ID"
+    r = re.compile(".*id", re.IGNORECASE)
+    return list(filter(r.match, available_fields))[0]
+    # admin_type_code = getAdminTypeCode(admin_level_info['localName'].lower())
+    # for field in available_fields:
+    #    if field == f"{admin_type_code}id": return f"{admin_type_code}id"
+    #    if field == f"{admin_type_code}_id": return f"{admin_type_code}_id"
+    #    if field == f"{admin_type_code.upper()}ID": return f"{admin_type_code.upper()}ID"
 
 def findNameField(record, admin_level_info, available_fields):
-    admin_type_code = getAdminTypeCode(admin_level_info['localName'].lower())
-    for field in available_fields:
-        if field == f"{admin_type_code}name": return f"{admin_type_code}name"
-        if field == f"{admin_type_code}_name": return f"{admin_type_code}_name"
-        if field == f"{admin_type_code.upper()}Name": return f"{admin_type_code.upper()}Name"
-        if field == f"{admin_type_code.upper()}_Name": return f"{admin_type_code.upper()}_Name"
+    r = re.compile(".*name", re.IGNORECASE)
+    return list(filter(r.match, available_fields))[0]
+    # admin_type_code = getAdminTypeCode(admin_level_info['localName'].lower())
+    # for field in available_fields:
+    #     if field == f"{admin_type_code}name": return f"{admin_type_code}name"
+    #     if field == f"{admin_type_code}_name": return f"{admin_type_code}_name"
+    #     if field == f"{admin_type_code.upper()}Name": return f"{admin_type_code.upper()}Name"
+    #     if field == f"{admin_type_code.upper()}_Name": return f"{admin_type_code.upper()}_Name"
 
 
 def record_converter(record, desired_output, admin_level_info, country_info, available_fields, src_crs):
@@ -58,10 +63,10 @@ def record_converter(record, desired_output, admin_level_info, country_info, ava
         print(f"Could not find name field: {country_info['countryIsoAlpha3Code']}, {admin_level_info['localName']}")
     
     return {
-        'geometry': transform_geom(src_crs, "EPSG:3349", record['geometry']),
+        'geometry': transform_geom(src_crs, "EPSG:3832", record['geometry']),
         'properties': OrderedDict([
             (f"{desired_output['shortName']}_NAME", feature_name),
-            (f"{desired_output['shortName']}_CODE", f"{country_info['countryIsoAlpha3Code']}-{record['properties'][id_field]}"),
+            (f"{desired_output['shortName']}_CODE", f"{country_info['countryIsoAlpha3Code']}-{int(record['properties'][id_field])}"),
             ('CNTRY_ISO3', country_info['countryIsoAlpha3Code']),
             ('LC_AD_TYPE', admin_level_info['localName']),
             ('SRC_DS', 'popgis')

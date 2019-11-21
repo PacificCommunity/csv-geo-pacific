@@ -6,8 +6,10 @@ micronesia = {
     "officialName": "Federated States of Micronesia",
     "subCountry1": {
         "localName": "State",
-        "bestDatasource": "popgis",
-        "popgisShpSource": "srcDatasets/popgis/FSM/sid_buffer100km_xy.shp"
+        "bestDatasource": "gadm",
+        "gadmLevel": 1
+        # "bestDatasource": "popgis",
+        # "popgisShpSource": "srcDatasets/popgis/FSM/sid_buffer100km_xy.shp"
     },
     "subCountry3": {
         "localName": "Municipality",

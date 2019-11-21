@@ -17,17 +17,17 @@ american_samoa = {
         "localName": "Village",
         "bestDatasource": "gadm",
         "gadmLevel": 3
-    },
-    "adminLevel1": {
-        "localName": "District",
-        "bestDatasource": "gadm"
-    },
-    "adminLevel2": {
-        "localName": "County",
-        "bestDatasource": "gadm"
-    },
-    "adminLevel3": {
-        "localName": "Village",
-        "bestDatasource": "gadm"
     }
+    # "adminLevel1": {
+    #     "localName": "District",
+    #     "bestDatasource": "gadm"
+    # },
+    # "adminLevel2": {
+    #     "localName": "County",
+    #     "bestDatasource": "gadm"
+    # },
+    # "adminLevel3": {
+    #     "localName": "Village",
+    #     "bestDatasource": "gadm"
+    # }
 }

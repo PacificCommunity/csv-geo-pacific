@@ -7,7 +7,7 @@ cook_islands = {
     "subCountry1": {
         "localName": "Group of Islands",
         "bestDatasource": "popgis",
-        "popgisShpSource": "srcDatasets/popgis/COK/groups_of_islands/CK_GID_buff100_3857_xy2.shp"
+        "popgisShpSource": "srcDatasets/popgis/COK/groups_of_islands/CookGroupOfIslands.shp"
    },
     "subCountry2": {
         "localName": "Island",

@@ -19,11 +19,6 @@ for layer in config.desired_outputs:
                 "nameProp": f"{layer['shortName']}_NAME",
                 "aliases": getAliases(region_mapping_data, layer['shortName'])
             }
-            # f"{layer['shortName']}_NAME": {
-            #     "regionProp": f"{layer['shortName']}_NAME",
-            #     "nameProp": f"{layer['shortName']}_NAME",
-            #     "aliases": getAliases(region_mapping_data, f"{layer['shortName']}_NAME")
-            # }
         }
     }
 

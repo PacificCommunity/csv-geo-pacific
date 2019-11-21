@@ -1,4 +1,4 @@
-# Level Of Detail - Sub Country 2
+# Level Of Detail - Sub-Country 2
 |ISO3 Code|           Country            |Boundary type|
 |---------|------------------------------|-------------|
 |ASM      |American Samoa                |County       |

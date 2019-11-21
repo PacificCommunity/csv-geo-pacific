@@ -28,7 +28,8 @@ desired_outputs = [
         "countryConfigKey": 'subCountry1',
         "levelCode": 1,
         "shortName": "SC1",
-        "description": "Sub-national boundaries (level 1) across the South Pacific"
+        "description": "Sub-national boundaries (level 1) across the South Pacific",
+        "requiresBuffer": 25
     },
     {
         "friendlyName": "Level Of Detail - Sub-Country 2",
@@ -98,3 +99,8 @@ countries = [
     vanuatu,
     wallis_futuna
 ]
+
+def get_country_config_by_country_code(country_code):
+    for country in countries:
+        if country_code == country['countryIsoAlpha3Code']:
+            return country

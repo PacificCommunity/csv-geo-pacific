@@ -1,4 +1,4 @@
-# Level Of Detail - Sub Country 1
+# Level Of Detail - Sub-Country 1
 |ISO3 Code|           Country            |       Boundary type       |
 |---------|------------------------------|---------------------------|
 |ASM      |American Samoa                |District                   |
@@ -9,13 +9,13 @@
 |KIR      |Kiribati                      |N/A                        |
 |MHL      |Marshall Islands              |N/A                        |
 |FSM      |Federated States of Micronesia|State                      |
-|NRU      |Nauru                         |Island                     |
+|NRU      |Nauru                         |N/A                        |
 |NCL      |New Caledonia                 |Province                   |
 |NIU      |Niue                          |N/A                        |
 |MNP      |Northern Mariana Islands      |Island                     |
-|PLW      |Palau                         |N/A                        |
+|PLW      |Palau                         |Group of States            |
 |PNG      |Papua New Guinea              |Province                   |
-|WSM      |Samoa                         |N/A                        |
+|WSM      |Samoa                         |Region                     |
 |SLB      |Solomon Islands               |Province                   |
 |TKL      |Tokelau                       |N/A                        |
 |TON      |Tonga                         |Division                   |

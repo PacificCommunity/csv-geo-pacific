@@ -1,6 +1,4 @@
-## Level Of Detail - Sub Country 1 
-- Aliases can be used as field headings to specify data for individual countries.
-
+## Level Of Detail - Sub-Country 1 
 |         Available Aliases          |
 |------------------------------------|
 |SC1CODE                             |
@@ -32,11 +30,7 @@
 |VUT_PROVINCE_CODE                   |
 |WLF_SC1_CODE                        |
 |WLF_DISTRICT_CODE                   |
-
-
-## Level Of Detail - Sub Country 2 
-- Aliases can be used as field headings to specify data for individual countries.
-
+## Level Of Detail - Sub-Country 2 
 |  Available Aliases  |
 |---------------------|
 |SC2CODE              |
@@ -58,11 +52,7 @@
 |TON_DISTRICT_CODE    |
 |VUT_SC2_CODE         |
 |VUT_ISLAND_CODE      |
-
-
-## Level Of Detail - Sub Country 3 
-- Aliases can be used as field headings to specify data for individual countries.
-
+## Level Of Detail - Sub-Country 3 
 |          Available Aliases          |
 |-------------------------------------|
 |SC3CODE                              |

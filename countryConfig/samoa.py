@@ -4,10 +4,11 @@ samoa = {
         "countryIsoAlpha3Code": "WSM",
         "countryNumericIsoCode": "882",
         "officialName": "Samoa",
-        # "subCountry1": {
-        #     "localName": "Region",
-        #     "bestDatasource": "gadm"
-        # },
+        "subCountry1": {
+            "localName": "Region",
+            "bestDatasource": "popgis",
+            "popgisShpSource": "srcDatasets/popgis/WSM/SamoaRegions.shp"
+        },
         "subCountry3": {
             "localName": "District",
             "bestDatasource": "gadm",

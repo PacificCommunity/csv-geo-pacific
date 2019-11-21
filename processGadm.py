@@ -19,7 +19,7 @@ def convertGdamId(gdam_id, gadm_level):
 def record_converter(record, desired_output, admin_level_info, country_info, available_fields, src_crs):
     id = convertGdamId(record['properties'][f"GID_{desired_output['levelCode']}"], desired_output['levelCode'])
     return {
-        'geometry': transform_geom(src_crs, "EPSG:3349", record['geometry']),
+        'geometry': transform_geom(src_crs, "EPSG:3832", record['geometry']),
         'properties': OrderedDict([
             (f"{desired_output['shortName']}_NAME", record['properties'][f"NAME_{desired_output['levelCode']}"]),
             (f"{desired_output['shortName']}_CODE", f"{country_info['countryIsoAlpha3Code']}-{id}"),

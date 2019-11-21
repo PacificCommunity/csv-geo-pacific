@@ -1,4 +1,4 @@
-# Level Of Detail - Sub Country 2 Values
+# Level Of Detail - Sub-Country 2 Values
 |        SC2_NAME         |SC2_CODE|ISO3 Code|Local Boundary Name|Source Geometry Dataset|
 |-------------------------|--------|---------|-------------------|-----------------------|
 |Ituau                    |ASM-11  |ASM      |COUNTY             |GADM                   |
@@ -17,19 +17,19 @@
 |Leasina                  |ASM-42  |ASM      |COUNTY             |GADM                   |
 |Tualatai                 |ASM-43  |ASM      |COUNTY             |GADM                   |
 |Tualauta                 |ASM-44  |ASM      |COUNTY             |GADM                   |
-|Atiu                     |COK-04  |COK      |ISLAND             |popgis                 |
+|Atiu                     |COK-4   |COK      |ISLAND             |popgis                 |
 |Nassau                   |COK-10  |COK      |ISLAND             |popgis                 |
-|Palmerston               |COK-08  |COK      |ISLAND             |popgis                 |
+|Palmerston               |COK-8   |COK      |ISLAND             |popgis                 |
 |Manihiki                 |COK-11  |COK      |ISLAND             |popgis                 |
-|Mauke                    |COK-05  |COK      |ISLAND             |popgis                 |
-|Pukapuka                 |COK-09  |COK      |ISLAND             |popgis                 |
-|Mitiaro                  |COK-06  |COK      |ISLAND             |popgis                 |
-|Aitutaki                 |COK-02  |COK      |ISLAND             |popgis                 |
+|Mauke                    |COK-5   |COK      |ISLAND             |popgis                 |
+|Pukapuka                 |COK-9   |COK      |ISLAND             |popgis                 |
+|Mitiaro                  |COK-6   |COK      |ISLAND             |popgis                 |
+|Aitutaki                 |COK-2   |COK      |ISLAND             |popgis                 |
 |Rakahanga                |COK-12  |COK      |ISLAND             |popgis                 |
 |Penrhyn                  |COK-13  |COK      |ISLAND             |popgis                 |
 |Suwarrow National Park   |COK-14  |COK      |ISLAND             |popgis                 |
-|Mangaia                  |COK-03  |COK      |ISLAND             |popgis                 |
-|Rarotonga                |COK-01  |COK      |ISLAND             |popgis                 |
+|Mangaia                  |COK-3   |COK      |ISLAND             |popgis                 |
+|Rarotonga                |COK-1   |COK      |ISLAND             |popgis                 |
 |Ba                       |FJI-1   |FJI      |PROVINCE           |popgis                 |
 |Namosi                   |FJI-10  |FJI      |PROVINCE           |popgis                 |
 |Ra                       |FJI-11  |FJI      |PROVINCE           |popgis                 |
@@ -280,10 +280,10 @@
 |Tegua                    |VUT-12  |VUT      |ISLAND             |popgis                 |
 |Loh                      |VUT-11  |VUT      |ISLAND             |popgis                 |
 |Toga                     |VUT-10  |VUT      |ISLAND             |popgis                 |
-|Mota                     |VUT-06  |VUT      |ISLAND             |popgis                 |
-|Rah                      |VUT-08  |VUT      |ISLAND             |popgis                 |
-|Ureparapara              |VUT-09  |VUT      |ISLAND             |popgis                 |
-|Gaua                     |VUT-01  |VUT      |ISLAND             |popgis                 |
+|Mota                     |VUT-6   |VUT      |ISLAND             |popgis                 |
+|Rah                      |VUT-8   |VUT      |ISLAND             |popgis                 |
+|Ureparapara              |VUT-9   |VUT      |ISLAND             |popgis                 |
+|Gaua                     |VUT-1   |VUT      |ISLAND             |popgis                 |
 |Toman                    |VUT-41  |VUT      |ISLAND             |popgis                 |
 |Rano                     |VUT-33  |VUT      |ISLAND             |popgis                 |
 |Wala                     |VUT-32  |VUT      |ISLAND             |popgis                 |
@@ -294,20 +294,20 @@
 |Emau                     |VUT-55  |VUT      |ISLAND             |popgis                 |
 |Lelepa                   |VUT-59  |VUT      |ISLAND             |popgis                 |
 |Moso                     |VUT-58  |VUT      |ISLAND             |popgis                 |
-|Vanua Lava               |VUT-04  |VUT      |ISLAND             |popgis                 |
-|Mota Lava                |VUT-05  |VUT      |ISLAND             |popgis                 |
+|Vanua Lava               |VUT-4   |VUT      |ISLAND             |popgis                 |
+|Mota Lava                |VUT-5   |VUT      |ISLAND             |popgis                 |
 |Aore                     |VUT-20  |VUT      |ISLAND             |popgis                 |
 |Lamen                    |VUT-47  |VUT      |ISLAND             |popgis                 |
 |Lataroa                  |VUT-42  |VUT      |ISLAND             |popgis                 |
-|Kwakea                   |VUT-07  |VUT      |ISLAND             |popgis                 |
+|Kwakea                   |VUT-7   |VUT      |ISLAND             |popgis                 |
 |Urelapa                  |VUT-23  |VUT      |ISLAND             |popgis                 |
 |Tangoa                   |VUT-25  |VUT      |ISLAND             |popgis                 |
 |Venui/First point        |VUT-72  |VUT      |ISLAND             |popgis                 |
 |Kakula                   |VUT-62  |VUT      |ISLAND             |popgis                 |
 |Pele                     |VUT-56  |VUT      |ISLAND             |popgis                 |
 |Mataso                   |VUT-53  |VUT      |ISLAND             |popgis                 |
-|Malekula                 |VUT-03  |VUT      |ISLAND             |popgis                 |
-|Merig                    |VUT-02  |VUT      |ISLAND             |popgis                 |
+|Malekula                 |VUT-3   |VUT      |ISLAND             |popgis                 |
+|Merig                    |VUT-2   |VUT      |ISLAND             |popgis                 |
 |Hideaway                 |VUT-76  |VUT      |ISLAND             |popgis                 |
 |Avokh                    |VUT-39  |VUT      |ISLAND             |popgis                 |
 |Reef                     |VUT-73  |VUT      |ISLAND             |popgis                 |

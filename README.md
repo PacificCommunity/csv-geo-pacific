@@ -41,9 +41,9 @@ Data in a csv should look like one of these:
 # Available Layers
 - Within PacificMap there are a number of layers which can be used for showing data against different regions
   - Country (EEZ)
-  - Sub-Country 1 [more details](/subCountry1)
-  - Sub-Country 2 [more details](/subCountry2)
-  - Sub-Country 3 [more details](/subCountry3)
+  - Sub-Country 1 [more details](https://github.com/PacificCommunity/csv-geo-pacific/tree/master/documentation/subCountry1)
+  - Sub-Country 2 [more details](https://github.com/PacificCommunity/csv-geo-pacific/tree/master/documentation/subCountry2)
+  - Sub-Country 3 [more details](https://github.com/PacificCommunity/csv-geo-pacific/tree/master/documentation/subCountry3)
 - The Sub-Country layers are an amalgamation of boundaries that approximately equivalent across countries
 
 

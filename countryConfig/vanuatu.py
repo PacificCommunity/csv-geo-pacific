@@ -7,7 +7,8 @@ vanuatu = {
         "subCountry1": {
             "localName": "Province",
             "bestDatasource": "popgis",
-            "popgisShpSource": "srcDatasets/popgis/VUT/province/PID_3857_10_2015.shp"
+            "popgisShpSource": "srcDatasets/popgis/VUT/province/PID_3857_10_2015.shp",
+            "requiresBuffer": False
         },
         "subCountry2": {
             "localName": "Island",
